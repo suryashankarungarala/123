@@ -1,5 +1,5 @@
 ---
-- hosts: surya
+- hosts: aws_ec2
   become: yes
   connection: ssh
   user: ec2_user
